@@ -1,0 +1,3 @@
+# NOTE: since we run it in the docker and the local application server is outside
+# docker, we must tell websockify to connect the server **outside** docker
+local: host.docker.internal:22655
